@@ -1,0 +1,9 @@
+.header{
+    background: #000;
+}
+.navbar-toggler{
+    background-color: #fff !important;
+}
+button:focus{
+    outline: none;
+}

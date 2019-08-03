@@ -1,0 +1,25 @@
+.new{
+    height: auto;
+    margin: 10px 0 20px;
+}
+img{
+    height: 150px;
+}
+.up{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin: auto;
+    text-align: center;
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    color: #fff;
+    background: #000;
+    cursor: pointer;
+    display: none;
+}

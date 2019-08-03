@@ -1,0 +1,18 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-3" *ngFor='let x of News'>
+            <div class="new">
+                <div class="card text-left">
+                <a [href]="x.url">
+                  <img class="card-img-top" [src]="x.urlToImage" alt="">
+                  <div class="card-body">
+                    <h4 class="card-title">{{x.title}}</h4>
+                  </div>
+                </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<div class="up">Up</div>
